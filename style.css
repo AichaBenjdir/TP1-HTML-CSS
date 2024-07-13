@@ -4,36 +4,37 @@ body{
      
 }
 
-.main-title {
-    text-align: center; /* Centrage du texte */
-    color: rgb(47, 216, 47); /* Couleur verte */
-    font-weight: bold; /* Texte en gras */
-}
+
 .container {
     max-width: 800px; /* Largeur maximale du conteneur */
     margin: 0 auto; /* Centrage horizontal du conteneur */
     padding: 20px; /* Espacement intérieur du conteneur */
 }
-.image10000Codeurs {
-    width: 100%; /* Ajuster la largeur de l'image à 100% du conteneur */
+.container .main-title {
+    text-align: center; /* Centrage du texte */
+    color: rgb(47, 216, 47); /* Couleur verte */
+    font-weight: bold; /* Texte en gras */
+}
+.container .image10000Codeurs {
+    width: 320px; /* Ajuster la largeur de l'image à 100% du conteneur */
     height: auto; /* Hauteur automatique pour maintenir le ratio */
     display: block; /* Assure que l'image se comporte comme un bloc */
     margin-bottom: 20px; /* Espacement en bas de l'image */
+    margin-right: 20px;
 }
 
 .image-text {
     display: flex; /* Utilisation de flexbox pour aligner les éléments en ligne */
     align-items: center; /* Centrer verticalement les éléments */
+  
 }
 
-.image-text img {
-    width: 100px; /* Ajuster la largeur de l'image selon vos besoins */
-    height: auto; /* Pour conserver le ratio de l'image */
-    margin-right: 20px; /* Marge à droite de l'image pour l'espace */
-}
+
 
 .text-content {
-    flex: 1; /* Le texte prendra l'espace disponible */
+  text-align: left;
+    align-items: center; /* Centrer verticalement les éléments */
+    font-size: 23px;
 }
 
 .impact-social {
