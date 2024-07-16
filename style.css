@@ -6,26 +6,26 @@ body{
 
 
 .container {
-    max-width: 800px; /* Largeur maximale du conteneur */
-    margin: 0 auto; /* Centrage horizontal du conteneur */
-    padding: 20px; /* Espacement intérieur du conteneur */
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
 }
 .container .main-title {
-    text-align: center; /* Centrage du texte */
-    color: rgb(47, 216, 47); /* Couleur verte */
-    font-weight: bold; /* Texte en gras */
+    text-align: center; 
+    color: rgb(47, 216, 47); 
+    font-weight: bold; 
 }
 .container .image10000Codeurs {
-    width: 320px; /* Ajuster la largeur de l'image à 100% du conteneur */
-    height: auto; /* Hauteur automatique pour maintenir le ratio */
-    display: block; /* Assure que l'image se comporte comme un bloc */
-    margin-bottom: 20px; /* Espacement en bas de l'image */
+    width: 320px; 
+    height: auto; 
+    display: block; 
+    margin-bottom: 20px; 
     margin-right: 20px;
 }
 
 .image-text {
-    display: flex; /* Utilisation de flexbox pour aligner les éléments en ligne */
-    align-items: center; /* Centrer verticalement les éléments */
+    display: flex; 
+    align-items: center; 
   
 }
 
@@ -33,7 +33,7 @@ body{
 
 .text-content {
   text-align: left;
-    align-items: center; /* Centrer verticalement les éléments */
+    align-items: center; 
     font-size: 23px;
 }
 
@@ -50,7 +50,7 @@ body{
 .codeurs {
     color: blue;
     font-weight: bold;
-    text-decoration: underline; /* Souligne le texte */
+    text-decoration: underline; 
 }
 .ils-en-parlent{
     color: rgb(206, 59, 206);
