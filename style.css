@@ -1,7 +1,7 @@
 body{
     justify-content: center;
     align-items: center;
-     
+    font-family: Arial, sans-serif;
 }
 
 
@@ -9,6 +9,7 @@ body{
     max-width: 800px; 
     margin: 0 auto; 
     padding: 20px; 
+    box-sizing: border-box;
 }
 .container .main-title {
     text-align: center; 
@@ -78,4 +79,32 @@ table{
     padding: 10px;
     vertical-align: top;
   }
+
+
+  /* Media Queries  */
+@media (min-width: 600px) {
+    .image-text {
+        display: flex; /* Affichage en flex pour les écrans plus larges */
+        text-align: left;
+    }
+
+    .container .image10000Codeurs {
+        width: 50%; /* Réduction de la taille de l'image */
+        margin-right: 20px;
+    }
+
+    .text-content {
+        font-size: 23px; /* Taille de la police pour les écrans plus larges */
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        max-width: 800px;
+    }
+
+    table {
+        width: 400px; /* Largeur de la table pour les écrans plus larges */
+    }
+}
   
